@@ -1,0 +1,31 @@
+export const GET_ERRORS = "GET_ERRORS";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const GET_PROFILE = "GET_PROFILE";
+export const GET_PROFILES = "GET_PROFILES";
+export const CLEAR_CURRENT_PROFILE = "CLEAR_CURRENT_PROFILE";
+export const PROFILE_LOADING = "PROFILE_LOADING";
+export const GET_POSTS = "GET_POSTS";
+export const GET_POST = "GET_POST";
+export const ADD_POST = "ADD_POST";
+export const POST_LOADING = "POST_LOADING";
+export const CLEAR_ERRORS = "CLEAR_ERRORS";
+export const ADD_STOCKS = "ADD_STOCKS";
+export const GET_STOCK = "GET_STOCK";
+export const GET_STOCK_BOT = "GET_STOCK_BOT";
+export const GET_STOCKS = "GET_STOCKS";
+export const STOCK_LOADING = "STOCK_LOADING";
+export const STOCK_DELETE = "STOCK_DELETE";
+export const UPDATE_PRICE = "UPDATE_PRICE";
+export const NEWS_LOADING = "NEWS_LOADING";
+export const GET_NEWS = "GET_NEWS";
+// -------------------------------------------
+export const GET_INTRADAY = "GET_INTRADAY";
+export const GET_DAILY = "GET_DAILY";
+export const GET_MONTHLY = "GET_MONTHLY";
+export const GET_YEARLY = "GET_YEARLY";
+export const GET_WEEKLY = "GET_WEEKLY";
+//--------------------------------------------
+export const GET_SMA = "GET_SMA";
+export const GET_MACD = "GET_MACD";
+export const GET_SO = "GET_SO";
+export const GET_AD = "GET_AD";

@@ -1,0 +1,19 @@
+use infytrade;
+
+db.infytrade.drop();
+
+db.createCollection('Users');
+
+
+db.Users.insert({
+    "_id" : ObjectId("5b18b2acf6e7db2edc23f1a1"),
+    "uCredentials" : {
+        "uEmail" : "jesse@gmail.com",
+        "uPass" : "BobSagot!1"
+    },
+    "uProfile" : {
+        "uName" : "jesse"
+    }
+})
+
+db.Users.find().pretty()

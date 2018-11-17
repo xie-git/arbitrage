@@ -1,0 +1,264 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+
+.landing {
+  position: relative;
+  background: url("./images/tokyo.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+/* .logo {
+  width: 
+} */
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+.square {
+  width: 120px;
+  align-content: center;
+  height: 60px;
+  display: inline-block;
+  background-color: lightgreen; /* Your Color */
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.rale {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.open {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.openbold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.newstitle{
+  letter-spacing: 2px
+}
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 6pt;
+  text-align: left;
+  background-color: #132235;
+  border-color: #132235;
+  color: #ffffff;
+}
+
+.resize {
+  width: 180px;
+  height: auto;
+}
+
+.navbar-default {
+  background-color: #132235;
+  border-color: #132235;
+}
+
+.navbuttons {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.spacing {
+  letter-spacing: 3px;
+}
+
+.datetime {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9pt;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+hr {
+  border: 0;
+  width: 100%;               
+  background-color:rgba(0, 0, 0, 0.404);
+  height: 1px;
+  margin-left:0
+}
+
+.wide {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:#000
+}
+
+.stretch{
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0px 0px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100%
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  width: 22%;
+  padding: 0px 0px
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.stocktext {
+  font-size: 8pt;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.crop {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+ }
+
+tr:nth-child(even) {
+  background-color: #b3b3b346;
+}
+
+.centre{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+table {
+  width: 100%; 
+  border-collapse: collapse;
+  table-layout:fixed;
+}
+
+td, th {
+  text-align: left;
+  padding: 2px;
+}
+
+.welcome {
+  border: 2px rgb(202, 202, 202) solid;
+  padding-bottom: 5px;
+}
+
+.stockbuttons{
+  height:20px;
+  width:40px;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+.sidebarbg{
+  background-color:#b3b3b346;
+  border-radius: 10px;
+}
+
+table.bg-grey {
+  background-color: #b3b3b346;
+}
+
+.headline {
+  height:100px;
+  line-height:20px;
+  overflow:hidden;
+}
+
+.spacingoverride {
+  letter-spacing: 0px;
+}
+
+.negative {
+  color: red
+}
+
+.positive {
+  color:green
+}
+
+.newspics {
+  width : 300px;
+  height: 185px
+}
+
+.parentYScroll{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.childYScroll{
+  position: absolute;
+  height: 70%;
+  top: 20%;
+  bottom: 0;
+  left: 0;
+  right: -17px; /* Increase/Decrease this value for cross-browser compatibility */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
