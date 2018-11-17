@@ -1,15 +1,22 @@
-WELCOME TO INFY EXCHANGE
+Welcome to Arbitrage
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
-To make the program to run you need to install the following npm modules:
+Arbitrage is a social platform for casual investors to analyze stock news and trends as a community with chart analysis, news feed, forums, and a market simulation game
 
-goto cmd line and cd to : \infy-exchange\infy-exchange and find the first package.json
+Website is currently under construction
 
-then copy and paste this script to install everything at once....
+TODO:
+Technical indicators and update statistics in charts tab
+Forum Topics 
+Dashboard Reactive Styling
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Please install the following npm modules:
+
+Copy and paste this script into the command line:
 
 npm i babel-cli babel-core babel-loader babel-preset-env bcryptjs body-parser cors gravatar jsonwebtoken mongoose nodemon passport passport-jwt validator --save dev
 
-
-then goto clients folder and download the dependencies for client side package.json
+Then cd into clients folder and install:
 
 npm i react react-dom react-scripts
 
