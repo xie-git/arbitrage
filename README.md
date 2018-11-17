@@ -1,8 +1,10 @@
 # Welcome to Arbitrage
 
-Arbitrage is a social platform for casual investors to analyze stock news and trends as a community with chart analysis, news feed, forums, and a market simulation game
+Arbitrage is a social platform for casual investors to analyze stock news and trends as a community with chart analysis, news feed, forums, and a market simulation game.
 
-Website is currently under construction
+This website is built in MERN Stack (MongoDB, Express.js, React.js, Node.js)
+
+Website is currently under construction.
 
 TODO:
 - [ ] Technical indicators and update statistics in charts tab
