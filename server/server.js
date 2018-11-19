@@ -13,6 +13,9 @@ import stockBot from "./routes/api/stockBot";
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+const path = require('path');
+app.use(express.static(path.join(__dirname, "client/build")))
+
 mongoose
   .connect(
     config.DB,

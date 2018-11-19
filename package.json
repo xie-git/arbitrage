@@ -21,9 +21,13 @@
     "d3": "^5.7.0",
     "express": "^4.16.3",
     "heroku": "^7.17.0",
+    "path": "^0.12.7",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "react-facebook-sdk": "^1.1.1",
     "react-google-login": "^3.2.1",
     "react-google-login-component": "^0.9.3",
+    "react-scripts": "^2.1.1",
     "request": "^2.88.0",
     "webhoseio": "^1.0.2"
   },

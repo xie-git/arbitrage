@@ -19,7 +19,7 @@ Copy and paste this script into the command line:
 
 Then cd into clients folder and install:
 
-`npm i react react-dom react-scripts`
+`npm i react react-dom react-scripts --save`
 
 and
 
